@@ -1,7 +1,7 @@
 ﻿namespace WarGame.Core;
 
 
-/// represents player's hand (queue behavior)
+// represents player's hand (queue behavior)
 
 public class Hand
 {

@@ -1,6 +1,6 @@
 ﻿namespace WarGame.Core;
 
-/// holds all player hands
+// holds all player hands
 public class PlayerHands
 {
     public Dictionary<string, Hand> Hands { get; } = new();

@@ -1,7 +1,7 @@
 ﻿namespace WarGame.Core;
 
 
-/// controls the War game flow and rules
+// controls the War game flow and rules
 public class WarGameEngine
 {
     private const int RoundLimit = 10_000;

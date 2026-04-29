@@ -17,9 +17,9 @@ Console.WriteLine();
 Console.WriteLine($"GAME OVER — Winner: {winner}");
 
 
-// =============================
+// ============================
 // helpers
-// =============================
+// ============================
 int GetPlayerCount(string[] args)
 {
     if (args.Length > 0 &&

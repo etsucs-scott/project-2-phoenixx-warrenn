@@ -1,6 +1,6 @@
 ﻿namespace WarGame.Core;
 
-/// represents a single playing card
+// represents a single playing card
 
 public class Card : IComparable<Card>
 {

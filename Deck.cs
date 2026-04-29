@@ -1,6 +1,6 @@
 ﻿namespace WarGame.Core;
 
-/// represents a shuffled deck of 52 cards
+// represents a shuffled deck of 52 cards
 public class Deck
 {
     private readonly Stack<Card> _cards;
