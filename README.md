@@ -1,15 +1,6 @@
 \-- Phoenix Warren
-
-
-
 \-- CSCI 1260-002: Object-Oriented Programming
-
-
-
 \-- Spring 2026
-
-
-
 
 
 War Game
