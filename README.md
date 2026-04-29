@@ -1,43 +1,48 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/hZIAsDPT)
-# CSCI 1260 — Project
+\-- Phoenix Warren
 
-## Project Instructions
-All project requirements, grading criteria, and submission details are provided on **D2L**.  
-Refer to D2L as the *authoritative source* for this assignment.
 
-This repository is intentionally minimal. You are responsible for:
-- Creating the solution and projects
-- Designing the class structure
-- Implementing the required functionality
 
----
+\-- CSCI 1260-002: Object-Oriented Programming
 
-## Getting Started (CLI)
 
-You may use **Visual Studio**, **VS Code**, or the **terminal**.
 
-### Create a solution
-```bash
-dotnet new sln -n ProjectName
-```
+\-- Spring 2026
 
-### Create a project (example: console app)
-```bash
-dotnet new console -n ProjectName.App
-```
 
-### Add the project to the solution
-```bash
-dotnet sln add ProjectName.App
-```
 
-### Build and run
-```bash
+
+
+War Game
+
+Build
+
 dotnet build
-dotnet run --project ProjectName.App
-```
 
-## Notes
-- Commit early and commit often.
-- Your repository history is part of your submission.
-- Update this README with build/run instructions specific to your project.
+
+
+Run
+
+dotnet run --project WarGame.Console
+
+
+
+Optional player count:
+
+dotnet run --project WarGame.Console -- 3
+
+
+
+Rules
+
+* Ace high
+* Ties trigger face-up tiebreakers
+* Round cap: 10,000
+* Winner = most cards at cap
+
+
+
+Submission
+
+GitHub Classroom repository:
+https://github.com/etsucs-scott/project-2-phoenixx-warrenn.git
+
